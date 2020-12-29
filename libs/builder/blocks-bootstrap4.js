@@ -23,7 +23,7 @@ Vvveb.BlocksGroup['Bootstrap 4 Snippets'] =
 Vvveb.Blocks.add("bootstrap4/signin-split", {
     name: "Modern Sign In Page with Split Screen Format",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/product.png">',    
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/sign-in-split.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/sign-in-split.jpg",
     html: `
 <div class="container-fluid">
   <div class="row no-gutter">
@@ -148,7 +148,7 @@ Vvveb.Blocks.add("bootstrap4/signin-split", {
 
 Vvveb.Blocks.add("bootstrap4/image-gallery", {
     name: "Image gallery",
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/thumbnail-gallery.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/thumbnail-gallery.jpg",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/product.png">',    
     html: `
 <div class="container">
@@ -228,7 +228,7 @@ Vvveb.Blocks.add("bootstrap4/image-gallery", {
 Vvveb.Blocks.add("bootstrap4/slider-header", {
     name: "Image Slider Header",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/product.png">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/full-slider.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/full-slider.jpg",
     html:`
 <header class="slider">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -289,7 +289,7 @@ Vvveb.Blocks.add("bootstrap4/slider-header", {
 Vvveb.Blocks.add("bootstrap4/video-header", {
     name: "Video Header",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/image.svg">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/video-header.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/video-header.jpg",
     html:`
 <header class="video">
   <div class="overlay"></div>
@@ -373,7 +373,7 @@ header.video .overlay {
 Vvveb.Blocks.add("bootstrap4/about-team", {
     name: "About and Team Section",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/image.svg">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/about-team.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/about-team.jpg",
     html:`
 <header class="bg-primary text-center py-5 mb-4">
   <div class="container">
@@ -435,7 +435,7 @@ Vvveb.Blocks.add("bootstrap4/about-team", {
 Vvveb.Blocks.add("bootstrap4/portfolio-one-column", {
     name: "One Column Portfolio Layout",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/image.svg">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/portfolio-one-column.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/portfolio-one-column.jpg",
     html:`
     <div class="container">
 
@@ -547,7 +547,7 @@ Vvveb.Blocks.add("bootstrap4/portfolio-one-column", {
 Vvveb.Blocks.add("bootstrap4/portfolio-two-column", {
     name: "Two Column Portfolio Layout",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/image.svg">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/portfolio-one-column.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/portfolio-one-column.jpg",
     html:`
 <div class="container">
 
@@ -658,7 +658,7 @@ Vvveb.Blocks.add("bootstrap4/portfolio-two-column", {
 Vvveb.Blocks.add("bootstrap4/portfolio-three-column", {
     name: "Three Column Portfolio Layout",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/image.svg">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/portfolio-three-column.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/portfolio-three-column.jpg",
     html:`
 <div class="container">
 
@@ -770,7 +770,7 @@ Vvveb.Blocks.add("bootstrap4/portfolio-three-column", {
 Vvveb.Blocks.add("bootstrap4/portfolio-four-column", {
     name: "Four Column Portfolio Layout",
 	dragHtml: '<img src="' + Vvveb.baseUrl + 'icons/image.svg">',        
-    image: "https://startbootstrap.com/assets/img/screenshots/snippets/portfolio-four-column.jpg",
+    image:  Vvveb.baseUrl + "screenshots/snippets/portfolio-four-column.jpg",
     html:`
 <div class="container">
 
